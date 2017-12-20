@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/ljy/AndroidStudioProjects/RecycleViewDemo/app/build/intermediates/exploded-aar/RecycleViewDemo/refreshmore/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="f7ab335bcbbe0bfee6b9c6a78ee8fdb2f983ceef">
+        <dex dex="/Users/ljy/AndroidStudioProjects/RecycleViewDemo/app/build/intermediates/pre-dexed/debug/RecycleViewDemo-refreshmore-unspecified_a04a2015e9d772dcb8424bf5c3d0f7d8bbbc8104.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ljy/AndroidStudioProjects/RecycleViewDemo/app/build/intermediates/exploded-aar/com.android.support/design/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="38789e20ace9ab7dbd00554bd2673ab424478d3b">
+        <dex dex="/Users/ljy/AndroidStudioProjects/RecycleViewDemo/app/build/intermediates/pre-dexed/debug/com.android.support-design-25.3.1_d704a3c66205badd099992818d6053f6e82e3662.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ljy/AndroidStudioProjects/RecycleViewDemo/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
+        <dex dex="/Users/ljy/AndroidStudioProjects/RecycleViewDemo/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-25.3.1_a426318f85b4b05044f6fe19cef23576d1f3e8ad.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ljy/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="/Users/ljy/AndroidStudioProjects/RecycleViewDemo/app/build/intermediates/pre-dexed/debug/bolts-tasks-1.4.0_77e982bf097dc8a26c57f7caf7a35c2703abc300.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ljy/AndroidStudioProjects/RecycleViewDemo/app/build/intermediates/exploded-aar/swipe-layout/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="3de625e8cd37611e0102b967a5dbf694ff6c1ed4">
+        <dex dex="/Users/ljy/AndroidStudioProjects/RecycleViewDemo/app/build/intermediates/pre-dexed/debug/intermediates-exploded-aar-swipe-layout_197d8d57af3b073b40006ad682dd15c53fa5da01.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ljy/AndroidStudioProjects/RecycleViewDemo/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/1.5.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="9602d1e79216cd0e61d22fad40caee64365f29ac">
+        <dex dex="/Users/ljy/AndroidStudioProjects/RecycleViewDemo/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-1.5.0_003084fbf957d3866a18b48df7f7bb6e6f631e99.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ljy/AndroidStudioProjects/RecycleViewDemo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
+        <dex dex="/Users/ljy/AndroidStudioProjects/RecycleViewDemo/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-25.3.1_a255d792be2a3149da45267b69313593b5b6e8c6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ljy/AndroidStudioProjects/RecycleViewDemo/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/1.5.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="da8b8f3f1fed75b39f0b9228bea5512f10bfff6f">
+        <dex dex="/Users/ljy/AndroidStudioProjects/RecycleViewDemo/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fresco-1.5.0_a4a7e2444b6fe951afeae3dde875f1fecc0661cb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ljy/AndroidStudioProjects/RecycleViewDemo/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="/Users/ljy/AndroidStudioProjects/RecycleViewDemo/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-25.3.1_81e17661f26798d9af01266b243d1dffa5895683.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ljy/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="/Users/ljy/AndroidStudioProjects/RecycleViewDemo/app/build/intermediates/pre-dexed/debug/picasso-2.5.2_b6e4cb6f89dca6561640dfc2cb9fcff2284b283f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ljy/AndroidStudioProjects/RecycleViewDemo/app/build/intermediates/exploded-aar/de.hdodenhof/circleimageview/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="ac6948cce36f694f3eb3d73a135e298dc4b3527a">
+        <dex dex="/Users/ljy/AndroidStudioProjects/RecycleViewDemo/app/build/intermediates/pre-dexed/debug/de.hdodenhof-circleimageview-1.3.0_3da3b479e452cd00effaf2dffa9197d025c4c01c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ljy/AndroidStudioProjects/RecycleViewDemo/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="914f5d3e3ace66080e59613708f06d129a222e25">
+        <dex dex="/Users/ljy/AndroidStudioProjects/RecycleViewDemo/app/build/intermediates/pre-dexed/debug/com.android.support-cardview-v7-25.3.1_f8b091bf686c6495c0d5b9eb9ea105b8bfd8adcd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ljy/AndroidStudioProjects/RecycleViewDemo/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="/Users/ljy/AndroidStudioProjects/RecycleViewDemo/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-25.3.1_b97606a4a77c58ef63309b6b8f6904c49c598177.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ljy/AndroidStudioProjects/RecycleViewDemo/app/build/intermediates/exploded-aar/com.android.databinding/adapters/1.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="c56d29136c2257f63f08c29c4e739efb03b06c7d">
+        <dex dex="/Users/ljy/AndroidStudioProjects/RecycleViewDemo/app/build/intermediates/pre-dexed/debug/com.android.databinding-adapters-1.2.1_bb500258ee4baee33a8ac8cc6536ed02a42faf20.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ljy/AndroidStudioProjects/RecycleViewDemo/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="/Users/ljy/AndroidStudioProjects/RecycleViewDemo/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-25.3.1_999a120a5433e044ce3ace1ad0c77cbf5bda9b11.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ljy/AndroidStudioProjects/RecycleViewDemo/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="/Users/ljy/AndroidStudioProjects/RecycleViewDemo/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-25.3.1_b031195e817c83bcb3c1c6b7ecc43c65e10ac061.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ljy/AndroidStudioProjects/RecycleViewDemo/app/build/intermediates/exploded-aar/RecycleViewDemo/swipemenu/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="46f371240e438b14ab260b151e1bd4964a2f73ad">
+        <dex dex="/Users/ljy/AndroidStudioProjects/RecycleViewDemo/app/build/intermediates/pre-dexed/debug/RecycleViewDemo-swipemenu-unspecified_6afbc655d2b2310c388e3b5f55c683f4b34c45e7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ljy/AndroidStudioProjects/RecycleViewDemo/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="95519720620b553f63afc789beba9ad582807f7c">
+        <dex dex="/Users/ljy/AndroidStudioProjects/RecycleViewDemo/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-25.3.1_5926c827403d5f5a4e717ee18124692d9d36bce0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ljy/AndroidStudioProjects/RecycleViewDemo/app/build/intermediates/exploded-aar/com.github.lzyzsd.randomcolor/library/1.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="1eeb816d58c01b447ac31b36777cfa61e804172b">
+        <dex dex="/Users/ljy/AndroidStudioProjects/RecycleViewDemo/app/build/intermediates/pre-dexed/debug/com.github.lzyzsd.randomcolor-library-1.0.0_cab962c78c07022726557b9d412b7ba4f45b3549.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ljy/AndroidStudioProjects/RecycleViewDemo/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/ljy/AndroidStudioProjects/RecycleViewDemo/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-25.3.1_d74634cd914c9bf966d8d0f048d2a2b2174de4d0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ljy/AndroidStudioProjects/RecycleViewDemo/app/build/intermediates/exploded-aar/RecycleViewDemo/loadmore/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="87b7f3a81d11f85ebece8e2ec8694675f16bce76">
+        <dex dex="/Users/ljy/AndroidStudioProjects/RecycleViewDemo/app/build/intermediates/pre-dexed/debug/RecycleViewDemo-loadmore-unspecified_3f2d45b2ab9394d624cbcbe9e3d92660e8c5cae2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ljy/AndroidStudioProjects/RecycleViewDemo/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/1.5.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="1c6d36281ce1c28ebeb58155c3ceac425dcec5e2">
+        <dex dex="/Users/ljy/AndroidStudioProjects/RecycleViewDemo/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fbcore-1.5.0_5d4af1b0df0f8026fad6660b54a60cec47fec9bc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ljy/AndroidStudioProjects/RecycleViewDemo/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="/Users/ljy/AndroidStudioProjects/RecycleViewDemo/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-25.3.1_be8d17b573024f06f6cf99acad523988defdf056.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ljy/AndroidStudioProjects/RecycleViewDemo/app/build/intermediates/exploded-aar/com.android.support/transition/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="d4cf6227dd6a2ceff0f7dcf0c324380b7abf2c28">
+        <dex dex="/Users/ljy/AndroidStudioProjects/RecycleViewDemo/app/build/intermediates/pre-dexed/debug/com.android.support-transition-25.3.1_e7513d6763444dce60e72164c67e907504497b50.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ljy/AndroidStudioProjects/RecycleViewDemo/app/build/intermediates/exploded-aar/com.android.support.constraint/constraint-layout/1.0.2/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="/Users/ljy/AndroidStudioProjects/RecycleViewDemo/app/build/intermediates/pre-dexed/debug/com.android.support.constraint-constraint-layout-1.0.2_3e95ba79cb4546a7fc9ef476fb2036ed8a404696.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ljy/Library/Android/sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.2/constraint-layout-solver-1.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="/Users/ljy/AndroidStudioProjects/RecycleViewDemo/app/build/intermediates/pre-dexed/debug/constraint-layout-solver-1.0.2_ba80408e384919eba189667b858d2de4070142b7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ljy/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.4.6/e3fd8ced1f52c7574af952e2e6da0df8df08eb82/httpcore-4.4.6.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="e3fd8ced1f52c7574af952e2e6da0df8df08eb82">
+        <dex dex="/Users/ljy/AndroidStudioProjects/RecycleViewDemo/app/build/intermediates/pre-dexed/debug/httpcore-4.4.6_36ab4f5c9bc17b9915637c88579d3bf58af6e40f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ljy/AndroidStudioProjects/RecycleViewDemo/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-base/1.5.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="8bf2709be142a2d0784d5e548842026dc28079dc">
+        <dex dex="/Users/ljy/AndroidStudioProjects/RecycleViewDemo/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-base-1.5.0_98f380272f8005c18365c8fcb9fcbde9e0768f4f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ljy/AndroidStudioProjects/RecycleViewDemo/app/build/intermediates/exploded-aar/com.android.databinding/library/1.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="957dc30b1495f8689271e00d56ab09cc9192df02">
+        <dex dex="/Users/ljy/AndroidStudioProjects/RecycleViewDemo/app/build/intermediates/pre-dexed/debug/com.android.databinding-library-1.2.1_15098eccc8fd1df9e14eb4900f423b18763989c1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ljy/AndroidStudioProjects/RecycleViewDemo/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/1.5.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="9644834bb403cfd73f5695b908a933c1ff236217">
+        <dex dex="/Users/ljy/AndroidStudioProjects/RecycleViewDemo/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-drawee-1.5.0_b8c48c90335c1508d6c1a028c6da48ed85d8d732.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ljy/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.3.1/support-annotations-25.3.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="/Users/ljy/AndroidStudioProjects/RecycleViewDemo/app/build/intermediates/pre-dexed/debug/support-annotations-25.3.1_5aeb0f65fdd2fe59bf80bc5ecc23acabdf0cf9c0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ljy/.gradle/caches/modules-2/files-2.1/com.android.databinding/baseLibrary/2.2.2/5e227e2d794cf680dd34fb04dd564ce58d6c764d/baseLibrary-2.2.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="5e227e2d794cf680dd34fb04dd564ce58d6c764d">
+        <dex dex="/Users/ljy/AndroidStudioProjects/RecycleViewDemo/app/build/intermediates/pre-dexed/debug/baseLibrary-2.2.2_7f51481e4494754b7da74b1ec6873b3dc68019a0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ljy/AndroidStudioProjects/RecycleViewDemo/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="/Users/ljy/AndroidStudioProjects/RecycleViewDemo/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-25.3.1_ea7bd8fc04e45e4d9e39690ad1960a9edf24a5f8.jar" />
+    </item>
+
+</items>

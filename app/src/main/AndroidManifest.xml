@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="mr.ljy.recycleviewdemo">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+
+    <application
+        android:name=".base.MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activity.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.SwipeCardActivity">
+        </activity>
+        <activity android:name=".activity.RefreshLoadActivity">
+        </activity>
+        <activity android:name=".activity.TouchSortActivity">
+        </activity>
+        <activity android:name=".activity.SwipMenuActivity">
+        </activity>
+        <activity android:name=".activity.LinearGridActivity">
+        </activity>
+        <activity android:name=".activity.AddHeadActivity">
+        </activity>
+        <activity android:name=".activity.MvvmActivity">
+        </activity>
+        <activity android:name=".activity.HeaderFooterActivity">
+        </activity>
+        <activity android:name=".activity.WindowImageActivity">
+        </activity>
+        <activity android:name=".activity.ScolleTitleBarActivity">
+        </activity>
+        <activity android:name=".activity.LjyRefreshActivity">
+        </activity>
+    </application>
+
+</manifest>

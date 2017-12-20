@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="wrap_content"
+              android:id="@+id/itemRoot"
+              android:orientation="vertical"
+              android:background="#888"
+              android:paddingLeft="20dp"
+              android:paddingRight="20dp"
+              android:paddingBottom="10dp"
+              android:paddingTop="40dp"
+              android:layout_height="wrap_content">
+    <ImageView android:layout_width="200dp"
+               android:id="@+id/imageViewSwipeCardImg"
+               android:scaleType="centerCrop"
+               android:layout_height="wrap_content"/>
+    <TextView android:layout_width="wrap_content"
+              android:id="@+id/textViewSwipeCardName"
+              android:layout_gravity="center_horizontal"
+              android:textSize="20sp"
+              android:layout_marginTop="15dp"
+              android:layout_height="wrap_content"/>
+    <TextView android:layout_width="wrap_content"
+              android:id="@+id/textViewSwipeCardPosition"
+              android:layout_gravity="center_vertical"
+              android:layout_marginTop="15dp"
+              android:textSize="16sp"
+              android:layout_height="wrap_content"/>
+
+</LinearLayout>

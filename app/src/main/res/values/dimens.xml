@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="swipe_item_height">160dp</dimen>
+    <dimen name="title_margin">5dp</dimen>
+    <dimen name="img_width">135dp</dimen>
+    <dimen name="img__final_width">50dp</dimen>
+    <dimen name="title__final_width">60dp</dimen>
+    <dimen name="imgtop_width">250dp</dimen>
+    <dimen name="margin_top">150dp</dimen>
+</resources>

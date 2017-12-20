@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="mr.ljy.recycleviewdemo.activity.MainActivity">
+    <ScrollView android:layout_width="match_parent"
+                android:layout_height="match_parent">
+        <LinearLayout android:layout_width="match_parent"
+                      android:orientation="vertical"
+                      android:layout_height="match_parent">
+            <Button android:layout_width="match_parent"
+                    android:id="@+id/btn_change_manager"
+                    android:onClick="click"
+                    android:textAllCaps="false"
+                    android:text="几种LayoutManager的切换"
+                    android:layout_height="wrap_content"/>
+            <Button android:layout_width="match_parent"
+                    android:id="@+id/btn_touch_sort"
+                    android:onClick="click"
+                    android:text="拖拽排序和滑动删除"
+                    android:layout_height="wrap_content"/>
+            <Button android:layout_width="match_parent"
+                    android:id="@+id/btn_refresh_loadmore"
+                    android:onClick="click"
+                    android:text="下拉刷新和上拉加载更多"
+                    android:layout_height="wrap_content"/>
+            <Button android:layout_width="match_parent"
+                    android:id="@+id/btn_swipe_card"
+                    android:onClick="click"
+                    android:text="层叠卡片滑动"
+                    android:layout_height="wrap_content"/>
+            <Button android:layout_width="match_parent"
+                    android:id="@+id/btn_swip_menu"
+                    android:onClick="click"
+                    android:text="侧滑菜单"
+                    android:layout_height="wrap_content"/>
+            <Button android:layout_width="match_parent"
+                    android:id="@+id/btn_add_head"
+                    android:onClick="click"
+                    android:text="可折叠头部"
+                    android:layout_height="wrap_content"/>
+            <Button android:layout_width="match_parent"
+                    android:id="@+id/btn_mvvm"
+                    android:onClick="click"
+                    android:text="MVVM"
+                    android:visibility="gone"
+                    android:layout_height="wrap_content"/>
+            <Button android:layout_width="match_parent"
+                    android:id="@+id/btn_hf"
+                    android:onClick="click"
+                    android:text="headerFooter"
+                    android:layout_height="wrap_content"/>
+            <Button android:layout_width="match_parent"
+                    android:id="@+id/btn_window_image"
+                    android:onClick="click"
+                    android:text="windowImage"
+                    android:layout_height="wrap_content"/>
+            <Button android:layout_width="match_parent"
+                    android:id="@+id/btn_scollTitleBar"
+                    android:onClick="click"
+                    android:text="滚动隐藏titleBar"
+                    android:layout_height="wrap_content"/>
+            <Button android:layout_width="match_parent"
+                    android:id="@+id/btn_ljyRefresh"
+                    android:onClick="click"
+                    android:text="ljyRefresh"
+                    android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

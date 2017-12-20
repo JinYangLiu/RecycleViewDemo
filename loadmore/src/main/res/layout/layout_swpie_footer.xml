@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/load_more_offset"
+    android:background="#0fff"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/ivLoadMore"
+        android:background="@drawable/white_circle_background"
+        android:layout_width="@dimen/load_more_footer_height"
+        android:layout_height="@dimen/load_more_footer_height"
+        android:layout_marginTop="2dp"
+        android:layout_gravity="center" />
+</LinearLayout>

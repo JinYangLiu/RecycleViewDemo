@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mr.ljy.swipemenu.SwipeItemLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/swipe_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/left_menu"
+        android:layout_width="@dimen/swipe_item_height"
+        android:layout_height="match_parent"
+        android:layout_gravity="left"
+        android:background="@color/pink"
+        android:gravity="center"
+        android:text="left"
+        android:clickable="true"
+        android:textSize="30sp"
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:id="@+id/right_menu"
+        android:layout_width="@dimen/swipe_item_height"
+        android:layout_height="match_parent"
+        android:layout_gravity="right"
+        android:background="@color/pink"
+        android:gravity="center"
+        android:text="right"
+        android:clickable="true"
+        android:textSize="30sp"
+        android:textColor="@color/white"/>
+
+    <include
+        layout="@layout/layout_item_touchsort"/>
+
+</mr.ljy.swipemenu.SwipeItemLayout>
