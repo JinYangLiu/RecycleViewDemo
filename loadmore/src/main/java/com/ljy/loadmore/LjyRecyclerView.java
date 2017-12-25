@@ -4,7 +4,6 @@ import android.content.Context;
 import android.support.annotation.Nullable;
 import android.support.v7.widget.RecyclerView;
 import android.util.AttributeSet;
-import android.util.Log;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.LinearLayout;
@@ -17,21 +16,9 @@ import java.util.ArrayList;
  */
 public class LjyRecyclerView extends RecyclerView {
 
-    public int getFooterViewsCount() {
-        Log.i("ljy","mFooterViewInfos.size():"+mFooterViewInfos.size());
-        return mFooterViewInfos.size();
-    }
-
-    public class FixedViewInfo {
-        public View view;
-        public int viewType;
-    }
-
     public ArrayList<FixedViewInfo> mFooterViewInfos = new ArrayList<>();
-    public Adapter mAdapter, adapter;
     public static final int BASE_HEADER_VIEW_TYPE = -1 << 10;
     public static final int BASE_FOOTER_VIEW_TYPE = -1 << 11;
-
 
     public LjyRecyclerView(Context context) {
         this(context,null);
@@ -54,29 +41,26 @@ public class LjyRecyclerView extends RecyclerView {
         info.viewType = BASE_FOOTER_VIEW_TYPE + mFooterViewInfos.size();
         mFooterViewInfos.add(info);
 
-        if (mAdapter != null) {
-            mAdapter.notifyDataSetChanged();
+        if (getAdapter() != null) {
+            getAdapter().notifyDataSetChanged();
         }
     }
 
     @Override
     public void setAdapter(Adapter adapter) {
-        this.adapter = adapter;
         if (!(adapter instanceof WrapperRecyclerViewAdapter))
-            mAdapter = new WrapperRecyclerViewAdapter(new ArrayList<FixedViewInfo>(), mFooterViewInfos, adapter);
-        super.setAdapter(mAdapter);
+            adapter  = new WrapperRecyclerViewAdapter(new ArrayList<FixedViewInfo>(), mFooterViewInfos, adapter);
+        super.setAdapter(adapter);
 
     }
 
-    @Override
-    public Adapter getAdapter() {
-        return mAdapter;
+    public int getFooterViewsCount() {
+        return mFooterViewInfos.size();
     }
 
-    @Override
-    public void setLayoutManager(LayoutManager layout) {
-        super.setLayoutManager(layout);
+    public class FixedViewInfo {
+        public View view;
+        public int viewType;
     }
 
 }
-

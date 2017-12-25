@@ -6,6 +6,7 @@ import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.util.AttributeSet;
 import android.view.MotionEvent;
+import android.view.View;
 import android.view.ViewConfiguration;
 import android.widget.AbsListView;
 import android.widget.LinearLayout;
@@ -33,7 +34,7 @@ public class LjySwipeRefreshView extends SwipeRefreshLayout {
     private LjyRecyclerView mRecyclerView;
     private int mItemCount = 5;
     private OnScrollListener mOnScrollListener;
-    private int lastItemPosition;
+    private boolean mIsRefreshing;
 
     public LjySwipeRefreshView(Context context, AttributeSet attrs) {
         super(context, attrs);
@@ -66,31 +67,21 @@ public class LjySwipeRefreshView extends SwipeRefreshLayout {
                     } else if (getChildAt(i) instanceof LjyRecyclerView) {
                         // 创建ListView对象
                         mRecyclerView = (LjyRecyclerView) getChildAt(i);
-                        mRecyclerView.setOnScrollListener(new RecyclerView.OnScrollListener() {
-                            @Override
-                            public void onScrolled(RecyclerView recyclerView, int dx, int dy) {
-                                super.onScrolled(recyclerView, dx, dy);
-                            }
-
-                            @Override
-                            public void onScrollStateChanged(RecyclerView recyclerView, int newState) {
-                                super.onScrollStateChanged(recyclerView, newState);
-                                RecyclerView.LayoutManager layoutManager = recyclerView.getLayoutManager();
-                                //判断是当前layoutManager是否为LinearLayoutManager
-                                // 只有LinearLayoutManager才有查找第一个和最后一个可见view位置的方法
-                                if (layoutManager instanceof LinearLayoutManager) {
-                                    LinearLayoutManager linearManager = (LinearLayoutManager) layoutManager;
-                                    //获取最后一个可见view的位置
-                                     lastItemPosition = linearManager.findLastVisibleItemPosition();
-                                    //获取第一个可见view的位置
-                                    int firstItemPosition = linearManager.findFirstVisibleItemPosition();
-
-                                    System.out.println(lastItemPosition + "   " + firstItemPosition);
-                                }
-                            }
-                        });
                         // 设置RecyclerView的滑动监听
                         setRecyclerViewOnScroll();
+                        mRecyclerView.setOnTouchListener(
+                                new View.OnTouchListener() {
+                                    @Override
+                                    public boolean onTouch(View v, MotionEvent event) {
+                                        if (mIsRefreshing) {
+                                            return true;
+                                        } else {
+                                            return false;
+                                        }
+                                    }
+                                }
+                        );
+
                         break;
                     }
                 }
@@ -139,14 +130,20 @@ public class LjySwipeRefreshView extends SwipeRefreshLayout {
                 mDownY = ev.getY();
                 break;
             case MotionEvent.ACTION_UP:
-                mUpY = getY();
+                mUpY = ev.getY();
                 if (canLoadMore()) {
                     // 加载数据
                     loadData();
                 }
                 break;
         }
-        return super.dispatchTouchEvent(ev);
+        boolean res;
+        try {
+            res = super.dispatchTouchEvent(ev);
+        } catch (Exception e) {
+            return true;
+        }
+        return res;
     }
 
     /**
@@ -178,11 +175,21 @@ public class LjySwipeRefreshView extends SwipeRefreshLayout {
                     // 第一页未满，禁止下拉
                     condition2 = false;
                 } else {
-                    condition2 = lastItemPosition+mRecyclerView.getFooterViewsCount() >= (mRecyclerView.getAdapter().getItemCount() - 1);
+                    RecyclerView.LayoutManager layoutManager = mRecyclerView.getLayoutManager();
+                    if (layoutManager instanceof LinearLayoutManager) {
+                        LinearLayoutManager linearManager = (LinearLayoutManager) layoutManager;
+                        condition2 = linearManager.findLastVisibleItemPosition() + mRecyclerView.getFooterViewsCount() >= (linearManager.getItemCount() - 1);
+                        condition2|= mRecyclerView.computeVerticalScrollExtent() + mRecyclerView.computeVerticalScrollOffset() >= mRecyclerView.computeVerticalScrollRange();
+                    }
                 }
             } else {
                 // 未设置数据长度，则默认第一页数据不满时也可以上拉
-                condition2 = lastItemPosition+mRecyclerView.getFooterViewsCount() >= (mRecyclerView.getAdapter().getItemCount()  - 1);
+                RecyclerView.LayoutManager layoutManager = mRecyclerView.getLayoutManager();
+                if (layoutManager instanceof LinearLayoutManager) {
+                    LinearLayoutManager linearManager = (LinearLayoutManager) layoutManager;
+                    condition2 = linearManager.findLastVisibleItemPosition() + mRecyclerView.getFooterViewsCount() >= (linearManager.getItemCount() - 1);
+                    condition2|= mRecyclerView.computeVerticalScrollExtent() + mRecyclerView.computeVerticalScrollOffset() >= mRecyclerView.computeVerticalScrollRange();
+                }
             }
         }
 
@@ -238,9 +245,9 @@ public class LjySwipeRefreshView extends SwipeRefreshLayout {
         if (isLoading) {
             // 显示布局
             mFooterView.startProgress();
-            if (mListView!=null&&mListView.getFooterViewsCount() < 1)
+            if (mListView != null && mListView.getFooterViewsCount() < 1)
                 mListView.addFooterView(mFooterParent);
-            if (mRecyclerView!=null&&mRecyclerView.getFooterViewsCount() < 1)
+            if (mRecyclerView != null && mRecyclerView.getFooterViewsCount() < 1)
                 mRecyclerView.addFooterView(mFooterParent);
         } else {
             // 隐藏布局
@@ -332,4 +339,12 @@ public class LjySwipeRefreshView extends SwipeRefreshLayout {
     public void setOnLoadMoreListener(OnLoadMoreListener listener) {
         this.mListener = listener;
     }
+
+
+    @Override
+    public void setRefreshing(boolean refreshing) {
+        mIsRefreshing = refreshing;
+        super.setRefreshing(refreshing);
+    }
+
 }
